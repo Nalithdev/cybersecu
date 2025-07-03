@@ -128,7 +128,7 @@ const routes = router.getRoutes().filter((route) => route.name && route.name !==
 
 const homeLink = computed(() => routes.find((route) => route.name === 'home'))
 
-const image = require('./blackmatter.png')
+const image = './blackmatter.png'
 </script>
 
 <style scoped>
