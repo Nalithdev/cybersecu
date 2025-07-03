@@ -43,7 +43,7 @@ const challenge = {
     1. Inspecter l'inspecteur d'éléments.
     2. Récupérer le mot de passe dans le script js.
   `,
-  screenshots: '../../public/challenge/auth_js_1.png',
+  screenshots: './challenge/auth_js_1.png',
   vulnerability: 'Mot de passe stocké en brut dans le script',
   concept: "Voler un mot de passe d'un site.",
   flag: 's****g',

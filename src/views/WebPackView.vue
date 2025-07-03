@@ -45,7 +45,7 @@ const challenge = {
     3. Analyser le fichier de mapping.
     4. Retrouver le mot de passe dans le code source.
   `,
-  screenshots: '../../public/challenge/webpack.png',
+  screenshots: './challenge/webpack.png',
   vulnerability:
     'Les fichier de mapping sont toujours présent dans le code source. donc il est facile de retrouvé le mot de passe',
   concept: " Retrouver le mot de passe dans le mapping d'un site.",

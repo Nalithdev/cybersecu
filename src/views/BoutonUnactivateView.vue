@@ -44,7 +44,7 @@ const challenge = {
     2. Activer le formulaire.
     3. envoyer le fomulaire.
   `,
-  screenshots: '../../public/challenge/bouton_unactivate_1.png',
+  screenshots: './challenge/bouton_unactivate_1.png',
   vulnerability: 'Modification du code html pour activer un bouton désactivé.',
   concept: "Réactivation et utilisation d'un formulaire.",
   flag: 'H************u',

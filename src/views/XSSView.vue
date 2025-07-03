@@ -44,7 +44,7 @@ const challenge = {
     1. Injecter du code dans le formulaire.
     2. Aller sur Webhook https://webhook.site/ pour récupérer les données.
   `,
-  screenshots: '../../public/challenge/XSS.png',
+  screenshots: './challenge/XSS.png',
   vulnerability:
     'Les formulaires peuvent être utilisé pour injecter du code, ce qui permet de voler des données sensibles.',
   concept: 'Sécurisé les données réceptionner coté serveur.',

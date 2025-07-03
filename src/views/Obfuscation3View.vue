@@ -44,7 +44,7 @@ const challenge = {
     2. Récupérer le mot de passe dans le script js.
     3. Déchiffrer le mot de passe.
   `,
-  screenshots: '../../public/challenge/obfuscation3.png',
+  screenshots: './challenge/obfuscation3.png',
   vulnerability: 'Mot de passe encodé et stocké en brut dans le script',
   concept: " Voler un mot de passe encodé d'un site.",
   flag: '7*********2',

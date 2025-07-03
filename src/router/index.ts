@@ -28,7 +28,7 @@ const router = createRouter({
       name: 'home',
       component: HomeView,
       meta: {
-        image: '../../public/cyber.png',
+        image: './cyber.png',
       },
     },
     {
@@ -39,7 +39,7 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue'),
       meta: {
-        image: '../../public/cyber.png',
+        image: './cyber.png',
       },
     },
     {
@@ -47,7 +47,7 @@ const router = createRouter({
       name: 'Mind Map',
       component: MindMapView,
       meta: {
-        image: '../../public/cyber.png',
+        image: './cyber.png',
       },
     },
     {
@@ -55,7 +55,7 @@ const router = createRouter({
       name: 'BoutonUnactive',
       component: BoutonUnactive,
       meta: {
-        image: '../../public/Rootme.png',
+        image: './Rootme.png',
       },
     },
     {
@@ -63,7 +63,7 @@ const router = createRouter({
       name: 'Js_Auth1',
       component: Authentification1View,
       meta: {
-        image: '../../public/Rootme.png',
+        image: './Rootme.png',
       },
     },
     {
@@ -71,7 +71,7 @@ const router = createRouter({
       name: 'Js_Source',
       component: SourceView,
       meta: {
-        image: '../../public/Rootme.png',
+        image: './Rootme.png',
       },
     },
     {
@@ -79,7 +79,7 @@ const router = createRouter({
       name: 'Js_Auth2',
       component: Authentification2View,
       meta: {
-        image: '../../public/Rootme.png',
+        image: './Rootme.png',
       },
     },
     {
@@ -87,7 +87,7 @@ const router = createRouter({
       name: 'Obfuscation1',
       component: Obfuscation1View,
       meta: {
-        image: '../../public/Rootme.png',
+        image: './Rootme.png',
       },
     },
     {
@@ -95,7 +95,7 @@ const router = createRouter({
       name: 'Obfuscation2',
       component: Obfuscation2View,
       meta: {
-        image: '../../public/Rootme.png',
+        image: './Rootme.png',
       },
     },
     {
@@ -103,7 +103,7 @@ const router = createRouter({
       name: 'Obfuscation3',
       component: Obfuscation3View,
       meta: {
-        image: '../../public/Rootme.png',
+        image: './Rootme.png',
       },
     },
     {
@@ -111,7 +111,7 @@ const router = createRouter({
       name: 'Native Code',
       component: NativeCodeView,
       meta: {
-        image: '../../public/Rootme.png',
+        image: './Rootme.png',
       },
     },
     {
@@ -119,7 +119,7 @@ const router = createRouter({
       name: 'Webpack',
       component: WebPackView,
       meta: {
-        image: '../../public/Rootme.png',
+        image: './Rootme.png',
       },
     },
     {
@@ -127,7 +127,7 @@ const router = createRouter({
       name: 'XSS Stockée',
       component: XSSView,
       meta: {
-        image: '../../public/Rootme.png',
+        image: './Rootme.png',
       },
     },
     {
@@ -135,7 +135,7 @@ const router = createRouter({
       name: 'Log4Shell',
       component: Log4ShellView,
       meta: {
-        image: '../../public/cyberattack.png',
+        image: './cyberattack.png',
       },
     },
     {
@@ -143,7 +143,7 @@ const router = createRouter({
       name: 'Target Attack',
       component: TargetView,
       meta: {
-        image: '../../public/cyberattack.png',
+        image: './cyberattack.png',
       },
     },
     {
@@ -151,7 +151,7 @@ const router = createRouter({
       name: 'SolarWinds',
       component: SolarWindsView,
       meta: {
-        image: '../../public/cyberattack.png',
+        image: './cyberattack.png',
       },
     },
     {
@@ -159,7 +159,7 @@ const router = createRouter({
       name: 'WannaCry',
       component: WannaCryView,
       meta: {
-        image: '../../public/cyberattack.png',
+        image: './cyberattack.png',
       },
     },
     {
@@ -167,7 +167,7 @@ const router = createRouter({
       name: 'NotPetya',
       component: NotPetyaView,
       meta: {
-        image: '../../public/cyberattack.png',
+        image: './cyberattack.png',
       },
     },
     {
@@ -175,7 +175,7 @@ const router = createRouter({
       name: 'BlackCat',
       component: BlackCatView,
       meta: {
-        image: '../../public/cyberattack.png',
+        image: './cyberattack.png',
       },
     },
     {
@@ -183,7 +183,7 @@ const router = createRouter({
       name: 'Darkside/Blackmatter',
       component: DarksideView,
       meta: {
-        image: '../../public/cyberattack.png',
+        image: './cyberattack.png',
       },
     },
     {
@@ -191,7 +191,7 @@ const router = createRouter({
       name: 'Lapsus',
       component: LapsusView,
       meta: {
-        image: '../../public/cyberattack.png',
+        image: './cyberattack.png',
       },
     },
   ],
