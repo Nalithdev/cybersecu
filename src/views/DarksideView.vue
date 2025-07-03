@@ -47,8 +47,8 @@
         </li>
       </ul>
     </section>
-
-    <img src="./blackmatter" alt="Blackmatter">
+g
+    <img :src="image" alt="Blackmatter">
 
     <section>
       <h2>🧬 Malwares, méthode d’intrusion, infrastructure</h2>
@@ -127,6 +127,8 @@ const router = useRouter()
 const routes = router.getRoutes().filter((route) => route.name && route.name !== 'NotFound')
 
 const homeLink = computed(() => routes.find((route) => route.name === 'home'))
+
+const image = require('./blackmatter.png')
 </script>
 
 <style scoped>
