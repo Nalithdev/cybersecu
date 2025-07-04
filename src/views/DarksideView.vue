@@ -47,7 +47,7 @@
         </li>
       </ul>
     </section>
-g
+
     <img :src="image" alt="Blackmatter">
 
     <section>

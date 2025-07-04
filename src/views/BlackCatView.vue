@@ -32,6 +32,7 @@
         <li><strong>2024–2025 :</strong> Reprise via affiliés malgré pression</li>
       </ul>
     </section>
+    <img :src="image" alt="Blackcat">
 
     <section>
       <h2>🧬 Malwares, méthode d’intrusion, infrastructure</h2>
@@ -101,6 +102,7 @@ const router = useRouter()
 const routes = router.getRoutes().filter((route) => route.name && route.name !== 'NotFound')
 
 const homeLink = computed(() => routes.find((route) => route.name === 'home'))
+const image = './blackcat.png'
 </script>
 
 <style scoped>

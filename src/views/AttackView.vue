@@ -55,6 +55,8 @@
       </table>
     </section>
 
+    <img :src="image" alt="Lapsus">
+
     <section>
       <h2>Malwares utilisés, méthode d’intrusion, infrastructure</h2>
       <ul>
@@ -118,6 +120,8 @@ const router = useRouter()
 const routes = router.getRoutes().filter((route) => route.name && route.name !== 'NotFound')
 
 const homeLink = computed(() => routes.find((route) => route.name === 'home'))
+
+const image = './lapsus.png'
 </script>
 
 <style scoped>
